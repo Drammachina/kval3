@@ -1,0 +1,14 @@
+<div>
+    <h3>{{cart.title}}</h3>
+    <p>{{cart.text}}</p>
+    <img src="{{cart.img.url}}">
+    <p id = "{{cart.id}}"> 0 </p>
+        <button onClick = "rex({{cart.id}}) "> + </button>
+        <button onClick = "rex2({{cart.id}}) "> - </button>
+</div>
+django-admin startproject Karat
+cd Karat
+python manage.py startapp Vasilisk
+npm install @picocss/pico
+python manage.py makemigrations
+python manage.py migrate
